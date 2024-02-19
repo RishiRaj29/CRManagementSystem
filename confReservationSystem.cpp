@@ -176,15 +176,15 @@ vector<int> split(string time, char del)
     return ans;
 }
 
-void bookSlot(string buildingName,string floorName,string confName,string time)
-{
-    vector<int>interval=split(time,':');
-    startTime=interval[0];
-    endTime=interval[1];
-    buildingName=toLowerCase(buildingName);
-    floorName=toLowerCase(floorName);
-    confName=toLowerCase(confName);
-}
+// void bookSlot(string buildingName,string floorName,string confName,string time)
+// {
+//     vector<int>interval=split(time,':');
+//     startTime=interval[0];
+//     endTime=interval[1];
+//     buildingName=toLowerCase(buildingName);
+//     floorName=toLowerCase(floorName);
+//     confName=toLowerCase(confName);
+// }
 
 int main()
 {
